@@ -16,10 +16,10 @@ function App() {
         <>
           <HeroSection />
           <div
-            className="w-full relative "
+            className="w-full relative h-full overflow-hidden"
             // style={{
             //   backgroundImage: `url('/Images/bg1.png')`,
-            //   backgroundSize: "contain",
+            //   backgroundSize: "fill",
             //   backgroundRepeat: "no-repeat",
             //   backgroundPosition: "center",
             // }}
@@ -27,9 +27,15 @@ function App() {
             {/* <img
               alt="logo"
               src="/Images/bg1.png"
-              className="absolute h-1/2 w-full object-contain"
+              className="relative z-0 top-[500px] h-[1500px] w-full object-fill"
+            />
+            <img
+              alt="logo"
+              src="/Images/bg2.png"
+              className="relative z-0  h-[1500px] w-full object-fill"
             /> */}
-            <div className="relative z-10">
+
+            <div className="relative inset-0 z-10">
               <OptionSection />
               <CtaSection />
               <Testimonial />
