@@ -17,7 +17,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white rounded-full">
+    <header className="bg-white rounded-full max-w-6xl mx-auto">
       <nav
         aria-label="Global"
         className="mx-auto flex max-w-7xl items-center justify-between py-2 lg:px-8"
@@ -94,13 +94,13 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <a
-                  href="#"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white"
                 >
                   About Us
                 </a>
                 <a
-                  href="#"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white"
                 >
                   Contact

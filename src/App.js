@@ -10,16 +10,33 @@ import { IoArrowForwardSharp } from "react-icons/io5";
 function App() {
   return (
     <div className="App bg-backgroundColor h-full w-full min-w-screen min-h-screen py-10 font-segoueUIThin">
-      <div className="max-w-6xl mx-auto space-y-10">
+      <div className=" space-y-10">
         <Header />
         {/* main layout */}
         <>
           <HeroSection />
-          <OptionSection />
-          <CtaSection />
-          <Testimonial />
+          <div
+            className="w-full relative "
+            // style={{
+            //   backgroundImage: `url('/Images/bg1.png')`,
+            //   backgroundSize: "contain",
+            //   backgroundRepeat: "no-repeat",
+            //   backgroundPosition: "center",
+            // }}
+          >
+            {/* <img
+              alt="logo"
+              src="/Images/bg1.png"
+              className="absolute h-1/2 w-full object-contain"
+            /> */}
+            <div className="relative z-10">
+              <OptionSection />
+              <CtaSection />
+              <Testimonial />
+            </div>
+          </div>
 
-          <div className="w-full flex justify-between items-center px-10 py-16">
+          <div className="max-w-6xl mx-auto w-full flex justify-between items-center px-10 py-16">
             <div className="flex-1 text-start text-4xl font-segoueUIExtraBold font-extrabold">
               <p>Vulputate et pulvinar ethre </p>
               <p>Suspendisse tellus consecteur </p>

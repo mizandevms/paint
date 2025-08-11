@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/* .bgImage {
+  background-image: url("public//Images/bg1.png");
+} */
+/* .bgImage {
+  background-image: url('/Images/bg1.png');
+  background-size: cover;
+  background-position: center;
+} */

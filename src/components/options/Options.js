@@ -3,7 +3,7 @@ import { IoArrowForwardSharp } from "react-icons/io5";
 
 const Options = () => {
   return (
-    <div className="px-10 w-full py-16 flex justify-between items-center">
+    <div className="max-w-6xl mx-auto px-10 w-full py-16 flex justify-between items-center">
       <div className="w-full flex flex-col justify-start items-start gap-2">
         <h3 className="text-primaryColor text-sm font-bold text-left">
           Quisque porttitor vitae vel amet neque scelerisque mattis. <br />{" "}

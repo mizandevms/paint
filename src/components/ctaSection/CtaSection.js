@@ -3,7 +3,7 @@ import { FaArrowLeft, FaArrowRightLong } from "react-icons/fa6";
 
 const CtaSection = () => {
   return (
-    <div className="bg-white rounded-[100px] p-20 flex justify-between items-center gap-8">
+    <div className="max-w-6xl mx-auto bg-white rounded-[100px] p-20 flex justify-between items-center gap-8">
       <img
         alt="options"
         src="/Images/person.png"

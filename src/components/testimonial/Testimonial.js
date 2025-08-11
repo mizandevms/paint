@@ -12,7 +12,7 @@ const Testimonial = () => {
     "Vulputate et vulputate suspendisse",
   ];
   return (
-    <div className="px-10 w-full py-16 flex justify-between items-center">
+    <div className="max-w-6xl mx-auto px-10 w-full py-16 flex justify-between items-center">
       <div className="w-full flex flex-col justify-start items-start gap-2">
         <h1 className="font-segoueUIExtraBold font-extrabold text-4xl">
           Cursus Integer

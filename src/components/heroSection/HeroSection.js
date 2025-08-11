@@ -13,7 +13,7 @@ const HeroSection = () => {
     "Mauris Fermentum Praesent",
   ];
   return (
-    <div className="px-10 w-full py-16 flex justify-between items-center">
+    <div className="max-w-6xl mx-auto px-10 w-full py-16 flex justify-between items-center">
       <div className="w-full flex flex-col justify-start items-start gap-2">
         <h3 className="text-primaryColor text-xl font-bold uppercase">
           risus praesent vulputate.
