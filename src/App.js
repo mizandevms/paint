@@ -10,7 +10,7 @@ import { IoArrowForwardSharp } from "react-icons/io5";
 function App() {
   return (
     <div className="App bg-backgroundColor h-full w-full min-w-screen min-h-screen py-10 font-segoueUIThin">
-      <div className="max-w-7xl mx-auto space-y-10">
+      <div className="max-w-6xl mx-auto space-y-10">
         <Header />
         {/* main layout */}
         <>

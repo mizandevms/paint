@@ -15,13 +15,13 @@ const HeroSection = () => {
   return (
     <div className="px-10 w-full py-16 flex justify-between items-center">
       <div className="w-full flex flex-col justify-start items-start gap-2">
-        <h3 className="text-primaryColor text-2xl font-bold uppercase">
+        <h3 className="text-primaryColor text-xl font-bold uppercase">
           risus praesent vulputate.
         </h3>
-        <h1 className="font-segoueUIExtraBold font-extrabold text-6xl">
+        <h1 className="font-segoueUIExtraBold font-extrabold text-5xl">
           Cursus Integer
         </h1>
-        <h1 className="font-segoueUIExtraBold font-extrabold text-6xl">
+        <h1 className="font-segoueUIExtraBold font-extrabold text-5xl">
           Consequat{" "}
           <ReactTyped
             strings={["Tristique."]}
@@ -30,7 +30,7 @@ const HeroSection = () => {
             loop
           />
         </h1>
-        <div className="mt-4 flex flex-wrap justify-start items-center gap-3">
+        <div className="flex flex-wrap justify-start items-center gap-3 mt-10">
           {options.map((option, index) => (
             <div
               key={index}
@@ -46,7 +46,7 @@ const HeroSection = () => {
           <IoArrowForwardSharp />
         </div>
       </div>
-      <div className="w-full">fdsafsa</div>
+      <div className="w-full">Image will be here</div>
     </div>
   );
 };
