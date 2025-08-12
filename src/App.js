@@ -15,39 +15,25 @@ function App() {
         {/* main layout */}
         <>
           <HeroSection />
-          <div
-            className="w-full relative h-full overflow-hidden"
-            // style={{
-            //   backgroundImage: `url('/Images/bg1.png')`,
-            //   backgroundSize: "fill",
-            //   backgroundRepeat: "no-repeat",
-            //   backgroundPosition: "center",
-            // }}
-          >
-            {/* <img
-              alt="logo"
-              src="/Images/bg1.png"
-              className="relative z-0 top-[500px] h-[1500px] w-full object-fill"
-            />
-            <img
-              alt="logo"
-              src="/Images/bg2.png"
-              className="relative z-0  h-[1500px] w-full object-fill"
-            /> */}
+          <div className="w-full relative h-full overflow-hidden">
+            <div className="w-full md:h-[2300px] overflow-hidden py-10  relative z-0">
+              <div className="w-[200%] h-[1500px] md:h-[1000px] bg-black -rotate-6 relative -left-20"></div>
+              <div className="w-[200%] h-[1500px] md:h-[1000px] bg-primaryColor -rotate-6 relative -left-20"></div>
+            </div>
 
-            <div className="relative inset-0 z-10">
+            <div className="absolute inset-x-0 top-32 md:top-52 z-10">
               <OptionSection />
               <CtaSection />
               <Testimonial />
             </div>
           </div>
 
-          <div className="max-w-6xl mx-auto w-full flex justify-between items-center px-10 py-16">
-            <div className="flex-1 text-start text-4xl font-segoueUIExtraBold font-extrabold">
+          <div className="max-w-6xl mx-auto w-full flex flex-col md:flex-row justify-start md:justify-between items-start md:items-center px-5 md:px-10  md:py-16">
+            <div className="flex-1 text-start text-2xl md:text-4xl font-segoueUIExtraBold font-extrabold">
               <p>Vulputate et pulvinar ethre </p>
               <p>Suspendisse tellus consecteur </p>
             </div>
-            <div className=" flex justify-end items-center gap-6 bg-primaryColor font-bold px-12 py-4 rounded-full">
+            <div className=" flex justify-end items-center gap-6 bg-primaryColor text-sm md:text-base font-bold px-8 md:px-12 py-2 md:py-4 rounded-full mt-8 md:mt-0">
               <p>Lorem Ipsum</p>
               <IoArrowForwardSharp />
             </div>
