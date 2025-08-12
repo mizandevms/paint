@@ -1,20 +1,14 @@
 import React from "react";
-
-import { useState } from "react";
 import {
-  Dialog,
-  DialogPanel,
   Popover,
   PopoverButton,
   PopoverGroup,
   PopoverPanel,
 } from "@headlessui/react";
 import { FaBars } from "react-icons/fa6";
-import { HiXMark } from "react-icons/hi2";
 import { IoCaretDown } from "react-icons/io5";
 
 export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <div className="w-full px-5 md:px-0">
@@ -36,7 +30,7 @@ export default function Header() {
           <div className="flex lg:hidden">
             <button
               type="button"
-              onClick={() => setMobileMenuOpen(true)}
+
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
             >
               <span className="sr-only">Open main menu</span>

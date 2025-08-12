@@ -18,7 +18,7 @@ function App() {
           <div className="w-full relative h-full overflow-hidden">
             <div className="w-full md:h-[2300px] overflow-hidden py-10  relative z-0">
               <div className="w-[200%] h-[1500px] md:h-[1000px] bg-black -rotate-6 relative -left-20"></div>
-              <div className="w-[200%] h-[1500px] md:h-[1000px] bg-primaryColor -rotate-6 relative -left-20"></div>
+              <div className="w-[200%] h-[1400px] md:h-[1000px] bg-primaryColor -rotate-6 relative -left-20"></div>
             </div>
 
             <div className="absolute inset-x-0 top-32 md:top-52 z-10">
